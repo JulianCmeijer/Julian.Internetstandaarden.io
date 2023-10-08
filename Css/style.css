@@ -1,0 +1,346 @@
+/* Index */
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.hoofdbar {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background: rgb(189, 189, 219);
+    background: 50px auto;
+    padding: 1.8em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.hoofdbar :hover {
+    color: rgb(8, 4, 53);
+}
+h2 {
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.bar2 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 244, 224)
+}
+
+.bar2 p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.bar2 {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    background: rgb(224, 224, 224);
+    list-style: none;
+}
+
+.overmij {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.Bronlijst {
+    list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto
+}
+ 
+.footer-content {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.footer-content {
+    margin: auto;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+.footer-content{
+    background: rgb(26, 26, 26);
+    color: white;;
+    width: 98vw;
+}
+
+.socials {
+    background: rgb(26, 26, 26);
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto       
+}
+
+.socials li{
+    margin: 0.3em;
+}
+
+.socials :hover {
+    color: rgb(114, 168, 238);
+}
+
+.footer {
+    background: rgb(0, 0, 0) ;
+    padding: 1em; 
+    text-align: center;
+}
+.footer p{
+    color: white;
+    font-size: 0.7em;
+    word-spacing: 0.1em;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+/* Recepten */
+
+.Navigatie {
+    color: #112744;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.recept h3 {
+    font-size: 2em; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+} 
+
+.recept p{
+    font-size: 1.1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.recept h3, p {
+    display: flex;
+    justify-content: center;
+}
+
+.tussenbalkR {
+    display: block;
+    background: black;
+    width: 100vw;
+    height: 2px;
+}
+
+.recept_keuze img {
+    height: 20em;
+    width: 20em;
+    padding: 5px
+}
+
+.recept_keuze img {
+    flex-wrap: wrap
+}
+
+.recept_keuze img {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75em;
+}
+
+.recept_keuze img :hover {
+    transition: 1s ease;
+}
+
+.recept_keuze img:hover {
+    border-radius:50%;
+    transition: 0.5s ease;
+}
+
+.recept_keuze p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.volgende_pagina {
+    display: flex;
+    justify-content: center
+}
+
+.volgende_pagina p {
+    border: 0.01em solid black;
+    padding: 0.5em
+}
+
+.eerste {
+    font-weight: bold;
+}
+
+/* Favorieten */
+
+.FavTekst h3, p{
+    display: flex;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.FavTekst h3 {
+    font-size: 2em;
+}
+
+.FavTekst p {
+    font-size: 1.1em;
+}
+
+.fav_witruimte {
+    display: block;
+    background: white;
+    height: 0.5em;
+    width: 100vw;
+}
+
+.fav_recept img {
+    height: 20em;
+    width:  20em;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+/* Recept van de dag */
+
+.Fritatta img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 51vw;
+}
+.Fritatta p{
+    display: block;
+    background: rgb(201, 205, 235);
+    width: 50vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.Fritatta p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 0.5em;
+}
+
+.tijd {
+   font-weight: bold;
+   border: solid rgb(201, 205, 235);
+   padding: 0.5em;
+   background: white;
+   border-radius: 20em;
+}
+
+.witruimte2 {
+    display: block;
+    background: white;
+    height: 0.7em;
+}
+
+.Ingredienten {
+    display: block;
+    background: rgb(201, 205, 235);
+    width: 51vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.Ingredienten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto; 
+}
+
+.Ingredienten p{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.bereiden {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto; 
+}
+
+.bereiden p{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.bereiden li{
+    font-size: 1.1em;
+}
+
+.smaak {
+   border: solid rgb(201, 205, 235);
+   padding: 0.5em;
+   background: white;
+   border-radius: 20em;
+}
+
+.smaak {
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.test {
+    font-weight: bold;
+    font-size: 51em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.BronVandaag p{
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+}
